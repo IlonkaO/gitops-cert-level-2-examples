@@ -27,9 +27,7 @@ spec:
     jsonPointers:
     - /data
     - /stringdata
-  - group: ''
+  - group: apps
     kind: Deployment
     jsonPointers:
-    - /data
-    - /stringdata
-   
+    - /metadata
