@@ -22,13 +22,9 @@ spec:
     syncOptions:
       - CreateNamespace=true  
   ignoreDifferences:
-  - group: v1
+  - group: ''
     kind: Secret
     jsonPointers:
     - /data
     - /stringdata
-  - group: apps
-    kind: Deployment
-    jsonPointers:
-    - /stringData
    
