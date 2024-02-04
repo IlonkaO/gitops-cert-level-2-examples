@@ -23,7 +23,7 @@ spec:
       - CreateNamespace=true  
   ignoreDifferences:
   - group: ''
-    kind: Secret
+    kind: ''
     jsonPointers:
     - /data
     - /stringdata
