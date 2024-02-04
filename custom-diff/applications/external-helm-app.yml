@@ -25,9 +25,10 @@ spec:
   - group: v1
     kind: Secret
     jsonPointers:
-    - /data/my-password
+    - /data
+    - /stringdata
   - group: apps
     kind: Deployment
     jsonPointers:
-    - /annotations/creation
+    - /stringData
    
